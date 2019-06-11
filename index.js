@@ -6,7 +6,7 @@ function writeCards(names){
   return thank_yous
 }
 function countdown(number){
-  for (let i = number; i > 0; i--) {
+  for (let i = number; i >= 0; i--) {
     console.log(i);
   }
 }
